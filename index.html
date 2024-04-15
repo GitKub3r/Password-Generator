@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Password</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Generate a random password</h2>
+        <input type="text" name="gen-pass" id="txt-password" class="readonly"></input>
+        <div id="options">
+            <input type="checkbox" name="opt" id="opt1"> Symbols
+            <input type="checkbox" name="opt" id="opt2"> Numbers
+            <input type="checkbox" name="opt" id="opt3"> Caps
+        </div>
+        <button class="button" id="gen-pass-btn">Generate</button>
+        <span class="small-text" id="error-no-lenght">Error: Type a valid password length</span>
+    </div>
+
+    <input type="number" name="pass-lenght" id="txt-length" placeholder="Password Length">
+
+    <script src="script.js"></script>
+</body>
+</html>
